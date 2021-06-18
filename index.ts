@@ -1,8 +1,6 @@
 import express from "express";
 import Backendless from "backendless";
 
-const APP_ID = "592A57DD-9D65-195F-FF45-DBCD3BE52D00";
-const API_KEY = "CD4605FA-60E6-4556-ADC8-E9919B37F9E9";
 
 Backendless.initApp(APP_ID, API_KEY);
 
